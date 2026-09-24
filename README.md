@@ -41,7 +41,7 @@ Este esquema representa una simplificación del dominio de la página, ya que co
 En db/queries se encuentran las sentencias SQL para realizar los métodos CRUD (cada nombre .sql representa la tabla correspondiente).
 Esta carpeta es de utilidad, ya que a partir de ella se autogeneran las operaciones mediante el sqlc.
 
-En db/generated se encuentrae el código GO autogenerado
+En db/sqlc se encuentrae el código GO autogenerado
 Se comprueba que este código es correcto y funcional, ya que todas las operacions CRUD pasan el testing.
 
 ### Contenedor de BBDD:
